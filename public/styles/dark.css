@@ -1,0 +1,19 @@
+body {
+    background-color: dimgrey;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 50px;
+    font-size: 30px;
+}
+
+hr {
+    color: lightyellow;
+    background-color: lightyellow;
+}
+
+a {
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}

@@ -1,0 +1,13 @@
+doctype html
+html
+    head
+        title= title
+        link(rel="icon", href="/public/favicon.ico", type="image/x-icon")
+        link(rel="stylesheet", href="/styles/#{theme}.css")/
+    body
+        h1 Тема: #{theme}
+        hr
+        a(href="/theme/set/dark") Установить темную тему
+        br
+        a(href="/theme/set/light") Установить светлую тему
+        hr
